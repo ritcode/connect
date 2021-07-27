@@ -809,19 +809,16 @@ video:fullscreen {
     --video-object-fit: cover;
   }
   .video.four {
-    float: none;
     width: 50vw;
     height: 50vh;
     --video-object-fit: cover;
   }
   .video.five {
-    float: none;
     width: 50vw;
     height: 33.33vh;
     --video-object-fit: cover;
   }
   .video.six {
-    float: none;
     width: 50vw;
     height: 33.33vh;
     --video-object-fit: cover;
