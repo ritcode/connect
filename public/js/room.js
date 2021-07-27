@@ -1268,9 +1268,8 @@ function logStreamSettingsInfo(name, stream) {
 function resizeVideos() {
   const numToString = ["", "one", "two", "three", "four", "five", "six"];
   const videos = document.querySelectorAll(".video");
-  let length = video.length > 6 ? 6 : videos.length;
   document.querySelectorAll(".video").forEach((v) => {
-    v.className = "video " + numToString[length];
+    v.className = "video " + numToString[videos.length];
   });
 }
 
