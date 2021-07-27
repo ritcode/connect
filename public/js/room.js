@@ -973,7 +973,7 @@ function setupLocalMedia(callback, errorback) {
         position: "center",
         title: "<strong>Hey!!!</strong>",
         html:
-          `
+          `ERROR: ${err}
           <br/> 
           <p style="color:white;">You need to allow camera and microphone access to use this app, You can turn off your video and audio after if you like.</p>`,
         showDenyButton: true,
