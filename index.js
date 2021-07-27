@@ -57,7 +57,7 @@ app.get("/join/*", (req, res) => {
     addLog("redirect:" + req.url + " to " + url.parse(req.url).pathname);
     res.redirect(url.parse(req.url).pathname);
   } else {
-    res.sendFile(path.join(__dirname, "public/client.html"));
+    res.sendFile(path.join(__dirname, "public/room.html"));
   }
 });
 

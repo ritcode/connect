@@ -61,7 +61,7 @@
   --btn-bg: transparent;
   --btn-color: white;
   --btn-opc: 0.7;
-  --btns-main: 20px;
+  --btns-main: 10px;
   --wb-bg: black;
   --wb-hbg: #000000;
   --my-settings-label-color: limegreen;
@@ -792,7 +792,6 @@ video:fullscreen {
 --------------------------------------------------------------*/
 
 @media only screen and (max-width: 720px) {
-  /* 960px */
   .video {
     float: left;
     width: 50vw;
@@ -809,12 +808,20 @@ video:fullscreen {
     height: 33.33vh;
     --video-object-fit: cover;
   }
+  .video.four {
+    float: none;
+    width: 50vw;
+    height: 50vh;
+    --video-object-fit: cover;
+  }
   .video.five {
+    float: none;
     width: 50vw;
     height: 33.33vh;
     --video-object-fit: cover;
   }
   .video.six {
+    float: none;
     width: 50vw;
     height: 33.33vh;
     --video-object-fit: cover;

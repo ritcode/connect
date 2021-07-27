@@ -19,24 +19,15 @@ Link : <a href="https://rit-connect.herokuapp.com/" target="__blank">https://rit
 - Express
 - WebRTC
 - Socket.io
-<!-- 
-## Preview
-<img src="public/images/preview.jpg"> -->
 
 ## Contributing
-- Clone repo 
-```bash
-git clone https://github.com/ritcode/ritcode.git
-```
+- Any feature or issue is welcomed
+- Fork and Clone Repo to your local system
 - Add your feature branch
 ```bash
 git checkout -b my-feature-branch
 ```
-- Push to repo
-```bash
-git push origin my-feature-branch
-```
-- Create Pull request
+- Push and Create Pull request
 
 ## Special thanks
 - Open source

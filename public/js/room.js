@@ -966,7 +966,7 @@ function setupLocalMedia(callback, errorback) {
     })
     .catch((err) => { 
       // // https://blog.addpipe.com/common-getusermedia-errors/
-      // console.error("Access denied for audio/video", err);
+      console.error("Access denied for audio/video", err);
       playSound("error");
       Swal.fire({
         background: swalBackground,
@@ -1268,8 +1268,9 @@ function logStreamSettingsInfo(name, stream) {
 function resizeVideos() {
   const numToString = ["", "one", "two", "three", "four", "five", "six"];
   const videos = document.querySelectorAll(".video");
+  let length = video.length > 6 ? 6 : videos.length;
   document.querySelectorAll(".video").forEach((v) => {
-    v.className = "video " + numToString[videos.length];
+    v.className = "video " + numToString[length];
   });
 }
 
@@ -4105,7 +4106,7 @@ function handleUnauthorizedKick() {
     background: swalBackground,
     position: "center",
     title: "Kick out, Seriously ? ",
-    text: "Only admins kan kick out.",
+    text: "Only admins can kick out.",
     confirmButtonText: `Okay`,
     showClass: {
       popup: "animate__animated animate__fadeInDown",
