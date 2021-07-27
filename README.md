@@ -1,7 +1,7 @@
 # Connect
 
 <p style="font-size:1.2rem">A video conferencing web app for all your basic needs</p>
-Link : <a href="#" target="__blank">https://github.com/ritcode/connect</a>
+Link : <a href="https://rit-connect.herokuapp.com/" target="__blank">https://rit-connect.herokuapp.com/</a>
 
 
 ## Features
