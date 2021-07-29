@@ -1,13 +1,13 @@
 # Connect
 
-<p style="font-size:1.2rem">A video conferencing web app for all your basic needs</p>
+<p style="font-size:1.2rem">A video conferencing web app for all your needs</p>
 Link : <a href="https://rit-connect.herokuapp.com/" target="__blank">https://rit-connect.herokuapp.com/</a>
 
 
 ## Features
 - Unlimited Participants and Time
 - Reatime public and private chats
-- Video and chat data are private participants only
+- Video and chat data are private to participants only
 - Almost Decentralised
 - Included Minimal whiteboard
 - In-call File Sharing
