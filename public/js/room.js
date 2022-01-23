@@ -1101,7 +1101,8 @@ function loadLocalMedia(stream) {
   localMedia.muted = true;
   localMedia.volume = 0;
   localMedia.controls = false;
-  document.body.appendChild(videoWrap);
+  // document.body.appendChild(videoWrap);
+  document.getElementById('video-container').appendChild(videoWrap)
 
   // log localMediaStream devices
   logStreamSettingsInfo("localMediaStream", localMediaStream);
@@ -1217,7 +1218,8 @@ function loadRemoteMediaStream(event, peers, peer_id) {
     : (remoteMediaControls = remoteMediaControls);
   remoteMedia.controls = remoteMediaControls;
   peerMediaElements[peer_id] = remoteMedia;
-  document.body.appendChild(videoWrap);
+  // document.body.appendChild(videoWrap);
+  document.getElementById('video-container').appendChild(videoWrap)
 
   // attachMediaStream is a part of the adapter.js library
   attachMediaStream(remoteMedia, remoteMediaStream);
